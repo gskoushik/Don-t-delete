@@ -6,15 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Sai Koushik',
+  tagline: 'Full Stack DevSecOps Enginner',
+  url: 'https://gskoushik.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'gskoushik', // Usually your GitHub org/user name.
+  projectName: 'gskoushik.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   presets: [
     [
@@ -24,13 +25,14 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/gskoushik/gskoushik.github.io/edit/master/',
+          
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/gskoushik/gskoushik.github.io/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,10 +45,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Sai Koushik',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Sai Koushik Gandikota',
+          src: 'img/logo.png',
         },
         items: [
           {
