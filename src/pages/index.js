@@ -29,9 +29,7 @@ function HomepageHeader() {
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
-  var __html = require('./index.html.js');
-  var template = { __html: __html };
   return (
-    <div><span dangerouslySetInnerHTML={template} /></div> 
+    <div></div> 
   );
 }
