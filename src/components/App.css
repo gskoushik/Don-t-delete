@@ -41,6 +41,36 @@ html, body {
   font-size: x-small;
 }
 
+@media all and (min-width:481px) and (max-width: 1024px) {
+  .myexperience {
+    border-color: white;
+    padding-left: 17%;
+    margin-top: -6%;
+    font-size: x-small;
+    margin-left: 1%;
+  }
+}
+
+@media all and (min-width:321px) and (max-width: 480px) {
+  .myexperience {
+    border-color: white;
+    padding-left: 17%;
+    margin-top: -6%;
+    font-size: x-small;
+    margin-left: 12%;
+  }
+}
+
+@media all and (min-width:0px) and (max-width: 320px) {
+  .myexperience {
+    border-color: white;
+    padding-left: 17%;
+    margin-top: -6%;
+    font-size: x-small;
+    margin-left: 12%;
+  }
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -105,7 +135,7 @@ a {
   bottom: 0;
   left: 0;
   background-image: linear-gradient(to top, #000000 , #185b9d00);
-  opacity: 0.85;
+  opacity: 0.65;
 }
 
 .left-inner,
@@ -146,15 +176,84 @@ a {
   margin-top: 65%;
 }
 
-@media screen and (max-width: 1000px) {
+
+@media all and (min-width:960px) and (max-width: 1024px) {
   .left .info {
-    margin-top: 397px;
+    margin-top: 1024px;
+  }
+
+  .right {
+    margin-top: 300px;
+  }
+
+}
+
+@media all and (min-width:801px) and (max-width: 959px) {
+  .left .info {
+    margin-top: 959px;
   }
 
   .right {
     margin-top: 300px;
   }
 }
+
+@media all and (min-width:769px) and (max-width: 800px) {
+  .left .info {
+    margin-top: 800px;
+  }
+
+  .right {
+    margin-top: 300px;
+  }
+}
+
+@media all and (min-width:569px) and (max-width: 768px) {
+  .left .info {
+    margin-top: 768px;
+  }
+
+  .right {
+    margin-top: 300px;
+  }
+
+}
+
+@media all and (min-width:481px) and (max-width: 568px) {
+  .left .info {
+    margin-top: 568px;
+  }
+
+  .right {
+    margin-top: 300px;
+  }
+
+}
+
+@media all and (min-width:321px) and (max-width: 480px) {
+  .left .info {
+    margin-top: 480px;
+  }
+
+  .right {
+    margin-top: 300px;
+  }
+
+}
+
+@media all and (min-width:0px) and (max-width: 320px) {
+  .left .info {
+    margin-top: 320px;
+  }
+
+  .right {
+    margin-top: 300px;
+  }
+
+}
+
+
+
 
 .left .info .name {
   font-weight: 700;

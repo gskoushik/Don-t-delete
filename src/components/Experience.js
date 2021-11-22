@@ -54,7 +54,7 @@ function getMyExperience() {
 }
 
 export default function Experience() {
-  const [activeStep, setActiveStep] = React.useState();
+  const [activeStep, setActiveStep] = React.useState(5);
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);

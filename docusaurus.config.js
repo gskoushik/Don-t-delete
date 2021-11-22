@@ -28,12 +28,12 @@ const config = {
           editUrl: 'https://github.com/gskoushik/gskoushik.github.io/edit/master/',
           
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/gskoushik/gskoushik.github.io/edit/master/blog/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/gskoushik/gskoushik.github.io/edit/master/blog/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -54,10 +54,10 @@ const config = {
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
+            position: 'right',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/skgandikota',
             label: 'GitHub Profile',
